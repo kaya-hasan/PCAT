@@ -36,17 +36,7 @@ app.get('/', async (req, res) => {
   });
 });
 
-const photoId = '646e0013920c8537cff337dc';
-Photo.findByIdAndUpdate(photoId, {
-  title: 'Photo Title 3',
-  description: 'Photo description 3 lorem ipsum ',
-})
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+
 
 app.get('/about', (req, res) => {
   res.render('about');
