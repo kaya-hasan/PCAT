@@ -28,7 +28,7 @@ const Photo = mongoose.model('Photo', PhotoSchema);
   }); */
 
 // update a photo
-const photoId = '646d188d9c485650f45c62ce';
+const photoId = '646d1c1d38394bd8a340a8bb';
 /*
 Photo.findByIdAndUpdate(id, {
   title: 'Photo Title 1 updated',
