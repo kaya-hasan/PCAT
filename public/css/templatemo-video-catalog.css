@@ -49,10 +49,17 @@ h2, p { color: #666666; }
 .tm-site-name { font-size: 1.9rem; }
 
 #tm-video-container {
-    max-height: 720px;
+    max-height: 7200px;
+    overflow: hidden;
+    background-color: #000000;
+}
+#tm-video-full {
+    width: 300%;
+    height: 300%;
     overflow: hidden;
     background-color: #333;
 }
+
 
 #tm-video {
     width: 100%;
